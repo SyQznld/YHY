@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appler.yhy.WelcomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/kawaii_loadingView"
+            android:layout_centerInParent="true"
+            android:text="等这个这转几圈就好了哦" />
+
+        <scut.carson_ho.kawaii_loadingview.Kawaii_LoadingView
+            android:id="@+id/kawaii_loadingView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            app:blockColor="#FFBBFF"
+            app:blockInterval="6dp"
+            app:fixBlock_Angle="5"
+            app:half_BlockWidth="13dp"
+            app:initPosition="0"
+            app:isClock_Wise="false"
+            app:lineNumber="3"
+            app:moveBlock_Angle="20"
+            app:moveSpeed="500"
+            app:move_Interpolator="@android:anim/bounce_interpolator" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:background="@color/color_blue"
+        android:id="@+id/rl_head"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="HI,GIRL!"
+            android:textSize="20dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/head"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="50dp"
+            android:src="@mipmap/welcome" />
+    </RelativeLayout>
+
+    <com.luolc.emojirain.EmojiRainLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/erl_emojiRain"/>
+
+</RelativeLayout>

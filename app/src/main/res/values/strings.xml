@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name"> Y Girl。</string>
+
+    <string name="main1">1、我经常叫你啥？怎么称呼你</string>
+    <string name="main2">2、在别人面前，我怎么介绍你？</string>
+    <string name="main3">3、你的小可爱过敏的食物。</string>
+    <string name="main4">4、你手机里有一首很魔性的歌？</string>
+    <string name="main5">5、送你的社会人标配小玩意儿。</string>
+
+    <string name="main6">6、你宠爱的我本人最喜欢吃的食物！</string>
+    <string name="main7">7、你有次被人家说成多大年龄[看戏脸]</string>
+    <string name="main8">8、哎呦呦，于海燕最喜欢的男明星。</string>
+    <string name="main9">9、曾经说过出去旅游最想带的饰品？</string>
+    <string name="main10">10、最后了，问一个超有难度的...</string>
+
+    <string name="syy1">失神岁月一去无返，偷来的时光总是太短</string>
+    <string name="syy2">你是九月夏天 滚烫的浪</string>
+    <string name="syy3">我想成为你的鹿。</string>
+    <string name="syy4">我多想拥抱你 可惜时光之里 山南水北 可惜你我中间人来人往</string>
+    <string name="syy5">明天过后</string>
+    <string name="syy6">I want to give you a little case.</string>
+    <string name="syy7">先说爱的人先不爱，后动心的不死心。</string>
+    <string name="syy8">遗憾与年轻总是一起 你的呢</string>
+    <string name="syy9">Wonderful You.❤</string>
+    <string name="syy10">听说悬崖有棵长生树</string>
+    <string name="syy11">轻轻缓缓细细慢慢</string>
+    <string name="syy12">我养的猫长大了茶树也结了茶  喜羊羊的结局被灰太狼吃掉啦  欢喜的当初变成了结尾的冤家  你还在远方寻那朵不凋零的花</string>
+</resources>
